@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum Vitae - Paola Andrea Rodríguez Cárdenas</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -13,11 +12,10 @@
         }
     </style>
 </head>
-<body class="bg-gray-100 p-4 sm:p-8">
-    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
-        
+<body class="p-4 sm:p-8">
+    <div class="max-w-5xl mx-auto bg-white shadow-2xl rounded-xl overflow-hidden">
         <!-- Header Section -->
-        <div class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white p-8 sm:p-12 text-center rounded-t-xl">
+        <div class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white p-8 sm:p-12 text-center">
             <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-2">PAOLA ANDREA RODRÍGUEZ CÁRDENAS</h1>
             <p class="text-lg sm:text-xl font-medium opacity-90">Enfermera Especialista en Salud Pública</p>
         </div>
@@ -29,14 +27,14 @@
             <div class="md:col-span-1 space-y-8">
                 
                 <!-- Contact Information -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-inner">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-inner border border-gray-100">
                     <h2 class="text-xl font-bold text-gray-800 mb-4 border-b-2 border-blue-200 pb-2">Información de Contacto</h2>
                     <ul class="text-gray-700 space-y-3">
                         <li><span class="font-semibold text-gray-900">Teléfono:</span> 3197166549</li>
                         <li><span class="font-semibold text-gray-900">Correo:</span> gengepardo@gmail.com</li>
                         <li><span class="font-semibold text-gray-900">Ubicación:</span> Bogotá, Colombia</li>
                         <li>
-                            <a href="https://linkedin.com/in/paolarodriguez" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors duration-200 font-medium">
+                            <a href="https://linkedin.com/in/paolarodriguez" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors duration-200 font-medium inline-flex items-center">
                                 Ver perfil en LinkedIn
                             </a>
                         </li>
@@ -44,7 +42,7 @@
                 </div>
                 
                 <!-- Education -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-inner">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-inner border border-gray-100">
                     <h2 class="text-xl font-bold text-gray-800 mb-4 border-b-2 border-blue-200 pb-2">Educación</h2>
                     <ul class="text-gray-700 space-y-4">
                         <li>
@@ -59,7 +57,7 @@
                 </div>
 
                 <!-- Skills -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-inner">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-inner border border-gray-100">
                     <h2 class="text-xl font-bold text-gray-800 mb-4 border-b-2 border-blue-200 pb-2">Habilidades</h2>
                     <ul class="list-disc list-inside space-y-2 text-gray-700">
                         <li>Liderazgo de equipos</li>
@@ -72,7 +70,7 @@
                 </div>
 
                 <!-- Non-formal courses -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-inner">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-inner border border-gray-100">
                     <h2 class="text-xl font-bold text-gray-800 mb-4 border-b-2 border-blue-200 pb-2">Cursos</h2>
                     <ul class="list-disc list-inside space-y-2 text-gray-700">
                         <li>Soporte Vital Básico RCP (BLS)</li>
@@ -88,7 +86,7 @@
             <div class="md:col-span-2 space-y-8">
                 
                 <!-- Professional Summary -->
-                <div class="p-6 bg-blue-50 rounded-lg shadow-md">
+                <div class="p-6 bg-blue-50 rounded-lg shadow-md border-l-4 border-blue-600">
                     <h2 class="text-2xl font-bold text-blue-800 mb-4">Perfil Profesional</h2>
                     <p class="text-gray-700 leading-relaxed">
                         Enfermera especialista en salud pública con más de 11 años de experiencia, enfocada en la **promoción, prevención y el liderazgo de proyectos de salud**. Demuestro un historial comprobado en la creación y ejecución de programas de alto impacto que han mejorado la salud de la comunidad. Mi enfoque se basa en el **liderazgo proactivo, la responsabilidad y la honestidad** para lograr resultados excelentes y de alta calidad.
@@ -115,14 +113,15 @@
                 <div class="p-6 bg-white rounded-lg shadow-md border-t-4 border-blue-500">
                     <h2 class="text-2xl font-bold text-gray-800 mb-4">Experiencia Profesional</h2>
                     <div class="space-y-6">
+                        <!-- Nueva experiencia actualizada -->
                         <div class="border-b pb-4">
-                            <p class="font-semibold text-lg">Líder en Citologías</p>
-                            <p class="italic text-gray-600">Viva 1A (Junio 2025 - Septiembre 2025)</p>
-                            <p class="text-sm mt-1 text-gray-700">Gestión y optimización de procesos de citologías.</p>
+                            <p class="font-semibold text-lg">Líder en Citologías (Nueva EPS)</p>
+                            <p class="italic text-gray-600">Viva 1A (Junio 02, 2025 - Febrero 12, 2026)</p>
+                            <p class="text-sm mt-1 text-gray-700">Gestión y optimización de procesos de citologías para la cohorte de Nueva EPS, asegurando altos estándares de calidad y oportunidad en el diagnóstico.</p>
                         </div>
                         <div class="border-b pb-4">
                             <p class="font-semibold text-lg">Enfermera de Salud Pública</p>
-                            <p class="italic text-gray-600">Sociedad de Cirugía de Bogotá - Hospital de San José (Abril 2024 - Presente)</p>
+                            <p class="italic text-gray-600">Sociedad de Cirugía de Bogotá - Hospital de San José (Abril 2024 - Mayo 2025)</p>
                         </div>
                         <div class="border-b pb-4">
                             <p class="font-semibold text-lg">Enfermera Asistencial</p>
@@ -143,6 +142,10 @@
             </div>
         </div>
         
+        <!-- Footer -->
+        <div class="bg-gray-100 p-6 text-center text-gray-500 text-sm italic">
+            Documento actualizado a Febrero de 2026
+        </div>
     </div>
 </body>
 </html>
